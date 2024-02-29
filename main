@@ -1,0 +1,141 @@
+<body class="d-flex flex-column min-vh-100">
+        <!-- Responsive navbar-->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container">
+                <a class="navbar-brand" href="/">CondoGames.XYZ</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item"><a class="nav-link" aria-current="page" href="/"><i class="fas fa-home"></i> Home</a></li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" id="navbarDropdown" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"><i class="fa-solid fa-people-group"></i> Community</a>
+                            <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="/discord"><i class="fab fa-discord"></i> Discord</a></li>
+                                <li><a class="dropdown-item" href="dsc.gg/willeaks"><i class="fa-brands fa-telegram"></i> Telegram</a></li>
+                                
+                            </ul>
+                        </li>
+                        <li class="nav-item"><a class="nav-link" href="/shop"><i class="fa-solid fa-shop"></i> Shop</a></li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" id="navbarDropdown" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"><i class="fas fa-gamepad"></i> Games</a>
+                            <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="/games/condorequester"><i class="fas fa-robot"></i> CondoRequester</a></li>
+                                <li><a class="dropdown-item" href="/games/latest"><i class="fas fa-upload"></i> Latest Condo Upload</a></li>
+                                <!--<li><hr class="dropdown-divider" /></li>
+                                <li><a class="dropdown-item" href="https://condofinder.neocities.org/"><i class="fas fa-gamepad"></i> Condo Finder</a></li>-->
+                            </ul>
+                        </li>
+                        <li class="nav-item"><a class="nav-link" href="/faq"><i class="fa-solid fa-circle-question"></i> Help</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+<header class="bg-primary text-white">
+    <div class="container px-4 text-center">
+        <h1 class="fw-bolder">CondoGames.XYZ</h1>
+        <p class="lead" id="header-message"><span class="Typewriter__wrapper">Auto condo finder for everyone</span><span class="Typewriter__cursor">|</span></p>
+        <a class="btn btn-lg btn-light" href="/games/latest">Latest Upload</a>
+        <a class="btn btn-lg btn-light" href="/games/condorequester">Private Condos</a>
+    </div>
+</header>
+<section class="py-5 border-bottom" id="features">
+    <div class="container px-5 my-5">
+        <div class="row gx-5">
+            <div class="col-lg-4 mb-5 mb-lg-0">
+                <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3"><i class="fas fa-robot"></i></div>
+                <h2 class="h4 fw-bolder">Auto Uploads</h2>
+                <p>No need to worry about condo games not being uploaded anymore, we upload constantly.</p>
+                <a class="text-decoration-none" href="/games/latest">
+                    Latest upload
+                    <i class="bi bi-arrow-right"></i>
+                </a>
+            </div>
+            <div class="col-lg-4 mb-5 mb-lg-0">
+                <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3"><i class="bi bi-house-fill"></i></div>
+                <h2 class="h4 fw-bolder">Condo Generator</h2>
+                <p>You can easily generate a private condo game at our site and receive it in seconds.</p>
+                <a class="text-decoration-none" href="/games/condorequester">
+                    Generate a private condo
+                    <i class="bi bi-arrow-right"></i>
+                </a>
+            </div>
+            <div class="col-lg-4">
+                <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3"><i class="bi bi-unlock-fill"></i></div>
+                <h2 class="h4 fw-bolder">Game Uptime</h2>
+                <p>We frequently update our methods to maximize the uptime.</p>
+                <a class="text-decoration-none" href="/games/latest">
+                    Latest upload
+                    <i class="bi bi-arrow-right"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+    <!---->
+    <div class="container px-5 my-5">
+        <div class="row gx-5">
+            <div class="col-lg-4 mb-5 mb-lg-0">
+                <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3"><i class="bi bi-people-fill"></i></div>
+                <h2 class="h4 fw-bolder">2P and 100P uploads!</h2>
+                <p>You can also set a custom max server size when generating a private condo!</p>
+                <a class="text-decoration-none" href="/games/latest">
+                    Latest upload
+                    <i class="bi bi-arrow-right"></i>
+                </a>
+            </div>
+            <div class="col-lg-4 mb-5 mb-lg-0">
+                <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3"><i class="bi bi-star-fill"></i></div>
+                <h2 class="h4 fw-bolder">Large variety of maps</h2>
+                <p>You can find the full list at our condo generator page.</p>
+                <a class="text-decoration-none" href="/games/condorequester">
+                    Generate a private condo
+                    <i class="bi bi-arrow-right"></i>
+                </a>
+            </div>
+            <div class="col-lg-4">
+                <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3"><i class="bi bi-discord"></i></div>
+                <h2 class="h4 fw-bolder">Join our Discord Server</h2>
+                <p>Join our discord server in order to know about the latest uploads and user-made ones!</p>
+                <a class="text-decoration-none" href="/discord">
+                    Server Invite
+                    <i class="bi bi-arrow-right"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+<script src="https://cdn.jsdelivr.net/npm/typewriter-effect@2.18.2/dist/core.js"></script>
+<script>
+    new Typewriter(document.getElementById("header-message"), {
+        loop: true,
+        delay: 40,
+        strings: [
+            "The future of condo games is here.",
+            "Condo 24/7 Auto Uploads!",
+            "Find condo games with ease.",
+            "Generate private condos quickly!",
+            "2P and 100P uploads!",
+            "Auto condo finder for everyone",
+            "Finding condo games has never been this easy!"
+        ],
+        pauseFor: 5000,
+        deleteSpeed: 35,
+        autoStart: true
+    })
+</script>
+
+        <footer class="bg-light text-center text-lg-start mt-auto">
+            <div class="text-center p-3 bg-dark text-light">
+                
+                © 2024 <a href="https://rbx.condos">RbxCondos Software</a>. All Rights Reserved. We are not affiliated with Roblox or any of their trademarks.
+                
+            </div>
+        </footer>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.6.16/dist/sweetalert2.min.js"></script>
+
+        <script src="/static/js/api.js"></script>
+
+    <script>(function(){var js = "window['__CF$cv$params']={r:'85cfc78418920020',t:'MTcwOTE5Nzg4MS4wMzQwMDA='};_cpo=document.createElement('script');_cpo.nonce='',_cpo.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js',document.getElementsByTagName('head')[0].appendChild(_cpo);";var _0xh = document.createElement('iframe');_0xh.height = 1;_0xh.width = 1;_0xh.style.position = 'absolute';_0xh.style.top = 0;_0xh.style.left = 0;_0xh.style.border = 'none';_0xh.style.visibility = 'hidden';document.body.appendChild(_0xh);function handler() {var _0xi = _0xh.contentDocument || _0xh.contentWindow.document;if (_0xi) {var _0xj = _0xi.createElement('script');_0xj.innerHTML = js;_0xi.getElementsByTagName('head')[0].appendChild(_0xj);}}if (document.readyState !== 'loading') {handler();} else if (window.addEventListener) {document.addEventListener('DOMContentLoaded', handler);} else {var prev = document.onreadystatechange || function () {};document.onreadystatechange = function (e) {prev(e);if (document.readyState !== 'loading') {document.onreadystatechange = prev;handler();}};}})();</script><iframe height="1" width="1" style="position: absolute; top: 0px; left: 0px; border: none; visibility: hidden;"></iframe>
+
+</body>
